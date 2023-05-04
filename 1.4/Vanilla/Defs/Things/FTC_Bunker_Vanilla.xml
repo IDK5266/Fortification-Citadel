@@ -232,13 +232,13 @@
 		<defName>FTC_Wall_AT</defName>
 		<label>ATgun bunker</label>
 		<description>a manned stationary ATgun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_AT_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<passability>Impassable</passability>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
-			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>3.91</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
@@ -869,8 +869,8 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<color>(200,200,200)</color>
 			<drawSize>3.91</drawSize>
-			<color>(160,160,160)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
