@@ -113,10 +113,10 @@
 
 <!-- Wall Mounted Flame Bunker -->
 
-<!--	<ThingDef ParentName="FTC_BasePermanentBunker">
+	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Flame</defName>
 		<label>flamethrower bunker</label>
-		<description>a manned stationary machinegun bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<description>test1234567590test</description>
 		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
@@ -151,6 +151,10 @@
 			<turretBurstWarmupTime>0.25</turretBurstWarmupTime>
 			<turretBurstCooldownTime>0.5</turretBurstCooldownTime>			
 		</building>
+		<placeWorkers Inherit="false">
+			<li>PlaceWorker_TurretTop</li>
+			<li>AOBAUtilities.PlaceWorker_ByWallOnSouth</li>
+		</placeWorkers>
 		<researchPrerequisites>
 			<li>FTC_PermanentBunker</li>
 		</researchPrerequisites>
@@ -165,7 +169,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-		<ShotSpread>0.5</ShotSpread>
+		<ShotSpread>0.01</ShotSpread>
 		<SightsEfficiency>1</SightsEfficiency>
 		<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
@@ -179,7 +183,7 @@
 				</targetParams>
 				<warmupTime>1</warmupTime>
 				<range>14.9</range>
-				<minRange>2.9</minRange>
+				<minRange>1.5</minRange>
 				<burstShotCount>10</burstShotCount>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<soundCast>Shot_MiniFlameblaster</soundCast>
@@ -194,7 +198,7 @@
          	<ammoSet>AmmoSet_FT_Flamethrower</ammoSet>
 		</li>
 		</comps>
-  	</ThingDef>-->
+  	</ThingDef>
 	
 	<!-- .303 Wall Mounted MG Bunker -->
 
