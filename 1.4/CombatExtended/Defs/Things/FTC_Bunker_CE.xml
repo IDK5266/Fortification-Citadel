@@ -136,7 +136,7 @@
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
 		<statBases>
-			<MaxHitPoints>750</MaxHitPoints>
+			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
 		</statBases>
