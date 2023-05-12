@@ -116,16 +116,16 @@
 	<ThingDef ParentName="FTC_BasePermanentBunker">
 		<defName>FTC_Wall_Flame</defName>
 		<label>flamethrower bunker</label>
-		<description>test1234567590test</description>
-		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_MG_south</uiIconPath>
+		<description>a manned stationary flame thrower bunker half buried beneath as a permanent fortification, Gunner can safely man the gun inside \n\n This is a permanent structure, site wisely.</description>
+		<uiIconPath>Things/Wall_Bunker/Citadel_Wall_Flame_south</uiIconPath>
 		<uiIconScale>1</uiIconScale>
 		<altitudeLayer>Building</altitudeLayer>
     	<passability>Impassable</passability>
 		<fillPercent>0.7</fillPercent>
 		<graphicData>
-			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
+			<texPath>Things/Wall_Bunker/Citadel_Wall_Flame</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -182,10 +182,10 @@
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
 				<warmupTime>1</warmupTime>
-				<range>14.9</range>
+				<range>15.5</range>
 				<minRange>1.5</minRange>
-				<burstShotCount>10</burstShotCount>
-				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_MiniFlameblaster</soundCast>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
@@ -214,7 +214,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_MG</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -309,7 +309,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Wall_AT</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -405,7 +405,7 @@
 		<graphicData>
 			<texPath>Things/Wall_Bunker/Citadel_Autocannon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<color>(160,160,160)</color>
 			<damageData>
@@ -782,7 +782,7 @@
 			<texPath>Things/Mortar_Bunker</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>3.5</drawSize>
-			<color>(160,160,160)</color>
+			<color>(200,200,200)</color>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>
 			</damageData>
@@ -894,7 +894,7 @@
 			<texPath>Things/Wall_Bunker/Citadel_Wall_Howitzer</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<color>(200,200,200)</color>
-			<drawSize>3.91</drawSize>
+			<drawSize>4</drawSize>
 			<drawOffset>(0,0,0)</drawOffset>
 			<damageData>
 				<rect>(0.3,0.3,0.3,0.3)</rect>

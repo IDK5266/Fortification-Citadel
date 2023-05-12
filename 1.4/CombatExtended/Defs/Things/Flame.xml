@@ -50,7 +50,7 @@
         <!--<dismantlExplosionDamAmount>0</dismantlExplosionDamAmount>--><!-- 分裂爆炸的傷害 -->
         <!--<dismantlExplosionArmorPenetration>0</dismantlExplosionArmorPenetration>--><!-- 分裂爆炸傷害的穿甲 -->
         <!--<dismantlExplosionSound>ExtinguisherExplosion</dismantlExplosionSound>--><!-- 分裂爆炸的音效SoundDef -->
-        <TDDistance>50~100</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
+        <TDDistance>500~550</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
       </li>
       <li Class="CombatExtended.CompProperties_Fragments">
         <fragments>
@@ -71,7 +71,7 @@
       <damageAmountBase>0</damageAmountBase>
 	  <flyOverhead>false</flyOverhead>
 	  <ai_IsIncendiary>true</ai_IsIncendiary>
-	  <speed>100</speed>
+	  <speed>150</speed>
     </projectile>
     <comps>
       <li Class="Fortification.CompProperties_ClusterBomb">
@@ -83,7 +83,7 @@
         <!--<dismantlExplosionDamAmount>0</dismantlExplosionDamAmount>--><!-- 分裂爆炸的傷害 -->
         <!--<dismantlExplosionArmorPenetration>0</dismantlExplosionArmorPenetration>--><!-- 分裂爆炸傷害的穿甲 -->
         <!--<dismantlExplosionSound>ExtinguisherExplosion</dismantlExplosionSound>--><!-- 分裂爆炸的音效SoundDef -->
-        <TDDistance>50~100</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
+        <TDDistance>500~550</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
       </li>
       <li Class="CombatExtended.CompProperties_Fragments">
         <fragments>
@@ -108,7 +108,7 @@
     </graphicData>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>Flame</damageDef>
-      <damageAmountBase>2</damageAmountBase>
+      <damageAmountBase>1</damageAmountBase>
       <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.33</preExplosionSpawnChance>
       <soundExplode>CE_FlamethrowerExplosion</soundExplode>
@@ -117,7 +117,7 @@
       <screenShakeFactor>0</screenShakeFactor>
 	  <flyOverhead>false</flyOverhead>
 	  <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      <speed>50</speed>
+      <speed>45</speed>
       <gravityFactor>5</gravityFactor>
     </projectile>
   </ThingDef>
@@ -133,7 +133,7 @@
     </graphicData>
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>PrometheumFlame</damageDef>
-      <damageAmountBase>5</damageAmountBase>
+      <damageAmountBase>3</damageAmountBase>
       <preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.67</preExplosionSpawnChance>
       <soundExplode>CE_FlamethrowerExplosion</soundExplode>
@@ -142,7 +142,7 @@
       <screenShakeFactor>0</screenShakeFactor>
 	  <flyOverhead>false</flyOverhead>
 	  <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      <speed>50</speed>
+      <speed>45</speed>
       <gravityFactor>5</gravityFactor>
     </projectile>
   </ThingDef>
