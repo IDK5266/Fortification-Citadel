@@ -1105,12 +1105,11 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<defaultProjectile>FT_Bunker_HowitzerShell</defaultProjectile>
+				<defaultProjectile>FT_Test_HowitzerShell_AB</defaultProjectile>
 				<warmupTime>1</warmupTime>
 				<range>500.0</range>
 				<requireLineOfSight>false</requireLineOfSight>
 				<minRange>11.9</minRange>
-				<forcedMissRadius>5</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>FT_CannonLaunchC</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1125,6 +1124,36 @@
 		</verbs>
 	</ThingDef>
 	
+<ThingDef ParentName="BaseBullet">
+        <defName>FT_Test_HowitzerShell_AB</defName>
+        <label>heavy explosive shell air burst</label>
+        <graphicData>
+        <texPath>Things/FTC_Shell_HE</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Fortification.Projectile_ClusterBomb</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>75</damageAmountBase>
+            <speed>50</speed>
+            <explosionRadius>3.5</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <comps>
+        <li Class="Fortification.CompProperties_ClusterBomb">
+                <clusterBurstCount>10</clusterBurstCount> <!-- 破片數量 -->
+                <projectile>FT_Bunker_HowitzerShell</projectile><!-- 作為破片的子彈ThingDef -->
+                <forceMissingRange>5</forceMissingRange><!-- 散射範圍(以母彈目標為圓心擴散) -->
+                <TDDistance>5~10</TDDistance><!--距離目標多遠時分裂(最小/最大距離) -->
+              </li>
+        </comps>
+      </ThingDef>
+	
 	<ThingDef ParentName="BaseBullet">
 		<defName>FT_Bunker_HowitzerShell</defName>
 		<label>heavy explosive shell</label>
@@ -1136,9 +1165,8 @@
 		<thingClass>Projectile_Explosive</thingClass>
 			<projectile>
 				<damageDef>Bomb</damageDef>
-				<damageAmountBase>75</damageAmountBase>
 				<speed>50</speed>
-				<explosionRadius>3.5</explosionRadius>
+				<explosionRadius>1.1</explosionRadius>
 				<flyOverhead>true</flyOverhead>
 				<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 				<soundExplode>MortarBomb_Explode</soundExplode>
