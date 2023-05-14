@@ -70,12 +70,14 @@
 				<fuelCapacity>2400</fuelCapacity>       <!-- 200 bursts -->
 				<fuelMultiplier>8</fuelMultiplier> <!-- 1 steel=8ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>2400</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -176,12 +178,14 @@
 				<fuelCapacity>50</fuelCapacity>  <!-- 50 bursts -->
 				<fuelMultiplier>1</fuelMultiplier> <!-- 1 Chemfuel=1 ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>50</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -308,12 +312,14 @@
 				<fuelCapacity>1200</fuelCapacity>  <!-- 100 bursts -->
 				<fuelMultiplier>8</fuelMultiplier> <!-- 1 steel=8 ammo -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>1200</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 		</comps>
   	</ThingDef>
@@ -424,8 +430,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -526,8 +534,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>750</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -625,8 +635,10 @@
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<initialAllowAutoRefuel>true</initialAllowAutoRefuel>
-				<autoRefuelPercent>0</autoRefuelPercent>
 				<fuelIconPath>Things/Item/Resource/ReinforcedBarrel/ReinforcedBarrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>120</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
 			</li>
 		</comps>
   	</ThingDef>
@@ -758,13 +770,15 @@
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>60</fuelCapacity>                    <!-- 30 burst -->
 				<initialFuelPercent>0.1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>3</fuelMultiplier>                 <!-- 2 barrel=3 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!-- <li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>45</worldTileRange>
@@ -914,13 +928,15 @@
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>90</fuelCapacity>                    <!-- 90 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>30</fuelMultiplier>                 <!-- 1 barrel=30 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>90</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>
@@ -1053,13 +1069,15 @@
 				<fuelIsMortarBarrel>true</fuelIsMortarBarrel>
 				<fuelCapacity>60</fuelCapacity>                    <!-- 60 burst -->
 				<initialFuelPercent>1</initialFuelPercent>
-				<autoRefuelPercent>0.5</autoRefuelPercent>
 				<showFuelGizmo>true</showFuelGizmo>
 				<minimumFueledThreshold>1</minimumFueledThreshold>
 				<fuelMultiplier>30</fuelMultiplier>                 <!-- 1 barrel=30 ammo -->
 				<factorByDifficulty>true</factorByDifficulty>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>              <!--重裝填設定-->
+				<initialConfigurableTargetFuelLevel>60</initialConfigurableTargetFuelLevel>
+				<autoRefuelPercent>100</autoRefuelPercent>
       		</li>
 			<!--<li MayRequire="VanillaExpanded.VFESecurity" Class="VFESecurity.CompProperties_LongRangeArtillery">
 				<worldTileRange>5</worldTileRange>

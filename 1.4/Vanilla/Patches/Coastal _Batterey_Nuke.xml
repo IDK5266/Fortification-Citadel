@@ -20,6 +20,13 @@
                         <fuelCapacity>30</fuelCapacity>
                     </value>
                 </li>
+				
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/initialConfigurableTargetFuelLevel</xpath>
+                    <value>
+                        <initialConfigurableTargetFuelLevel>30</initialConfigurableTargetFuelLevel>
+                    </value>
+                </li>
 
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="FTC_Batterey_Turret"]/comps/li/fuelIsMortarBarrel</xpath>

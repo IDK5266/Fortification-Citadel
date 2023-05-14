@@ -368,7 +368,7 @@
 			<defaultProjectile>Bullet_37x223mmR_HE</defaultProjectile>
 			<warmupTime>2.5</warmupTime>
 			<minRange>3.9</minRange>
-			<range>80</range>
+			<range>85</range>
 			<soundCast>FT_CannonLaunchA</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>12</muzzleFlashScale>
