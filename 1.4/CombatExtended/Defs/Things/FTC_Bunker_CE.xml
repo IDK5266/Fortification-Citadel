@@ -47,7 +47,7 @@
 			<MaxHitPoints>2000</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.85</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>0.95</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>150</Steel>
@@ -323,7 +323,7 @@
 			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>350</Steel>
@@ -419,7 +419,7 @@
 			<MaxHitPoints>1750</MaxHitPoints>
 			<WorkToBuild>5000</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.05</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<Steel>175</Steel>
@@ -509,7 +509,7 @@
 			<MaxHitPoints>2500</MaxHitPoints>
 			<WorkToBuild>7500</WorkToBuild>
 			<Beauty>-5</Beauty>
-			<ShootingAccuracyTurret>0.99</ShootingAccuracyTurret>
+			<ShootingAccuracyTurret>1.25</ShootingAccuracyTurret>
 		</statBases>
 		<costList>
 			<FT_ConcreteCompressed>8</FT_ConcreteCompressed>
