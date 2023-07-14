@@ -716,9 +716,8 @@
 			<Beauty>-5</Beauty>
 		</statBases>
 		<costList>
-			<Steel>500</Steel>
-			<ReinforcedBarrel>3</ReinforcedBarrel>
-			<ComponentIndustrial>5</ComponentIndustrial>
+			<Steel>550</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
    		  	<FT_ConcreteCompressed>12</FT_ConcreteCompressed>
 		</costList>
 		<building>
